@@ -1,0 +1,58 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.3",
+  "serialNumber": "urn:uuid:6baa2347-951d-41cd-98e4-cf59179a4c21",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "c-sample@0.0.0",
+      "type": "application",
+      "name": "c-sample",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:conan/apr@1.7.0?repository_url=https://center.conan.io",
+      "type": "library",
+      "name": "apr",
+      "version": "1.7.0",
+      "purl": "pkg:conan/apr@1.7.0?repository_url=https://center.conan.io"
+    },
+    {
+      "bom-ref": "pkg:downloads.es.net/iperf@2.0.5",
+      "type": "library",
+      "name": "iperf",
+      "version": "2.0.5",
+      "purl": "pkg:downloads.es.net/iperf@2.0.5"
+    },
+    {
+      "bom-ref": "pkg:cdn.kernel.org/iproute2@4.2.0",
+      "type": "library",
+      "name": "iproute2",
+      "version": "4.2.0",
+      "purl": "pkg:cdn.kernel.org/iproute2@4.2.0"
+    },
+    {
+      "bom-ref": "pkg:ftp.gnu.org/cpio@2.12",
+      "type": "library",
+      "name": "cpio",
+      "version": "2.12",
+      "purl": "pkg:ftp.gnu.org/cpio@2.12"
+    },
+    {
+      "bom-ref": "pkg:conan/libxml2@2.9.10?repository_url=https://center.conan.io",
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.9.10",
+      "purl": "pkg:conan/libxml2@2.9.10?repository_url=https://center.conan.io"
+    },
+    {
+      "bom-ref": "pkg:conan/zlib@1.2.8?repository_url=https://center.conan.io",
+      "type": "library",
+      "name": "zlib",
+      "version": "1.2.8",
+      "purl": "pkg:conan/zlib@1.2.8?repository_url=https://center.conan.io"
+    }
+  ]
+}
