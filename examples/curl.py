@@ -1,4 +1,7 @@
 # this is an example of testing a single package by its name and version
+# make sure the environment variable SNYK_TOKEN is set
+# run this as PYTHONPATH=src python3 examples/curl.py
+# to format the output, pipe to jq: PYTHONPATH=src python3 examples/curl.py | jq
 
 import json
 from snyk_cpp import SnykCpp

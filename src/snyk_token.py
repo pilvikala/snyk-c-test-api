@@ -7,5 +7,5 @@ def get_token() -> str:
             raise ValueError()
     except:
         print("SNYK_TOKEN variable is not set")
-        raise ValueError()
+        exit(1)
     return token
