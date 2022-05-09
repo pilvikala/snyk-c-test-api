@@ -113,7 +113,7 @@ The API returns a JSON string:
 ### Package name matching
 
 In the C/C++ world, there is no single authoritative index we could use for unique matching. Our database of open source packages is curated by a team of analysts that link together projects and their artifacts. The API attempts to simplify this by searching for a package name in our list of internally unique coordinates that map to vulnerabilities.
-For each package matching the provided name, a different set of vulnerabilities will be provided. Here's an example of the json output for a package named `openfortivpn`. Note the different set of vulnerabilities and the package names (`adrienverge/openfortivpn` vs `adrienverge/openfortivpn`):
+For each package matching the provided name, a different set of vulnerabilities will be provided. Here's an example of the json output for a package named `openfortivpn`. Note the different set of vulnerabilities and the package names (`openfortivpn` vs `adrienverge/openfortivpn`):
 
 ```json
 [
