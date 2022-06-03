@@ -370,3 +370,8 @@ The `snyk_cpp` module provides the `SnykCpp` class with a function called `test`
 ```python
     def test(self, name: str, version: str) -> dict
 ```
+
+
+## Testing Conan projects
+
+Testing a project using Conan package manager can be done via an intermediate CycloneDX document. The CycloneDX document can be generated from `conanfile.txt` or `conanfile.py` using the [CycloneDX-Conan](https://github.com/CycloneDX/cyclonedx-conan) tool.
