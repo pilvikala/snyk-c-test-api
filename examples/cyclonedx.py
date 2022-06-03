@@ -62,7 +62,10 @@ def print_result(component_name, result):
                 print(package_result["error"])
             return
         package_name = get_package_name_from_first_issue(package_result["issues"]["vulnerabilities"])
-        print_issues(package_name, component_name, package_result["issues"]["vulnerabilities"])
+        if package_name is None:
+            print("No issues found")
+        else:
+            print_issues(package_name, component_name, package_result["issues"]["vulnerabilities"])
 
 def main():
     token = get_token()

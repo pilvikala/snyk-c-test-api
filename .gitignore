@@ -2,3 +2,4 @@
 .vscode/launch.json
 .venv/*
 */__pycache__/*
+.dccache
